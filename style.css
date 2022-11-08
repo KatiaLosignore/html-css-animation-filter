@@ -73,6 +73,14 @@
     filter: grayscale(1) opacity(0.2);
 }
 
+.ex-8-img {
+    transition: 2s;
+}
+
+.ex-8-img:hover {
+    filter: grayscale(.2) opacity(0.8);
+    border-radius: 25px;
+}
 .ex-9-img {
     margin: 50px 100px;
     width: 400px;
