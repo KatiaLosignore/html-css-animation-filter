@@ -52,12 +52,25 @@
 .ex-5-square:hover {
     transform: scale(2);
 }
+
+.ex-5-square:active {
+    transform: scale(.4);
+}
+
 .ex-6-img, .ex-7-img, .ex-8-img {
     width: 500px;
 }
 
 .ex-6-img:hover {
     filter:grayscale(1);
+}
+
+.ex-7-img {
+    transition: 3s;
+}
+
+.ex-7-img:hover {
+    filter:saturate(0.2) sepia(0.8);
 }
 
 .ex-9-img {
